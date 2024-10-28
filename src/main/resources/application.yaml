@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: java-sample-service
+
+management:
+  info:
+    java:
+      enabled: true
+    env:
+      enabled: true
+    os:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+sample:
+  wallet:
+    initial-balance: 0.0
